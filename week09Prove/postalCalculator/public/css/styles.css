@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#title {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#info {
+    background-color: rgb(172, 172, 172);
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+input {
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 4px;
+}
+
+select {
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 4px;
+}
+
+#sendButton {
+    background-color: rgb(0, 0, 100);
+    padding: 10px 15px;
+    color: white;
+    border: hidden;
+    border-radius: 5px;
+}
+
+#sendButton:hover {
+    /* background-image: url('../envelope.png');
+    background-size: cover;
+    border: none;
+    color: transparent; */
+    background-color: rgb(0, 0, 150);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#thanks {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
